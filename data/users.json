@@ -1,0 +1,27 @@
+{
+    "user1": {
+      "password": "1234",
+      "balance": 10,
+      "ticket": 3
+    },
+    "user2": {
+      "password": "2345",
+      "balance": 10,
+      "ticket": 3
+    },
+    "undefined": {
+      "password": "3456",
+      "balance": 10,
+      "tickets": 3
+    },
+    "user3": {
+      "password": "3456",
+      "balance": 10,
+      "tickets": 3
+    },
+    "user4": {
+      "password": "3456",
+      "balance": 10,
+      "tickets": 3
+    }
+  }
