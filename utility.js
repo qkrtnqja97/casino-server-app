@@ -1,5 +1,5 @@
 function getSpinRoulette() {
-    return getRandomInt(0, 37) * 9.729;
+    return getRandomInt(0, 37) * 9.72;
 }
 
 function getRandomInt() {
