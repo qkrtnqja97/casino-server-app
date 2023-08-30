@@ -20,10 +20,29 @@ function calculateWinner(randomNumber1, randomNumber2) {
   }
 }
 
+// Define the rollTheDice function to generate random dice rolls
+function rollTheDice() {
+  var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+  var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+  return { randomNumber1, randomNumber2 };
+}
+
+function getSpinRoulette() {
+  return getRandomInt(0, 37) * 9.72;
+}
+
+function getRandomInt() {
+  return Math.floor(Math.random() * (37 - 0 + 1)) + 0;
+}
+
+
 // Export the functions to make them accessible to other modules
 module.exports = {
   calculateReward,
-  calculateWinner
+  calculateWinner,
+  rollTheDice,
+  getSpinRoulette,
+  getRandomInt
 };
 
 
